@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .body_cover{
+    width: 100%;
+    /* 100vh */
+    height:100vh;
+    background-color:#c0c4c5;
+  }
+  .property_img_details{
+    width: 100%;
+    height: 70%;
+    /* background-color: #695e5e; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+  }
+  .property_img{
+    width: 40%;
+    height: 90%;
+    border: 3px solid #fff;
+    /* background-color: blueviolet; */
+  }
+  .property_details{
+    width: 50%;
+    height: 90%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #2c9cf8;
+  }
+  .property_booking{
+    width: 100%;
+    height: 70%;
+    background-color:#c0c4c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .booking_fields{
+    width: 30%;
+    height: 95%;
+    background-color: #e7e9f1;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  .head_cover{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(83, 53, 15); */
+   
+  }
+  .head{
+    width:40%;
+    height: 40px;
+    background-color: #2c9cf8;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    
+  }
+  .text_fields{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .propertyName{
+    width: 70%;
+    height: 70px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .placeName{
+    width: 70%;
+    height: 50px;
+    /* background-color: rgb(55, 83, 83); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+  }
+  .price{
+    width: 70%;
+    height: 40px;
+    /* background-color: rgb(25, 53, 53); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .description{
+    width: 70%;
+    height: auto;
+    /* background-color: rgb(5, 52, 52); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .parking{
+    width: 70%;
+    height: 40px;
+    /* background-color: rgb(14, 57, 57); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bedRooms{
+    width: 70%;
+    height: 40px;
+    /* background-color: rgb(1, 20, 20); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
